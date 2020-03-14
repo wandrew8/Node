@@ -1,10 +1,10 @@
 {
-  "type": "module",
   "name": "examples",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/wandrew8/Node/issues"
   },
-  "homepage": "https://github.com/wandrew8/Node#readme"
+  "homepage": "https://github.com/wandrew8/Node#readme",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "webpack": "^4.42.0"
+  }
 }
